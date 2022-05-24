@@ -9,12 +9,9 @@ export class AppComponent {
   public title = 'learningProject';
   public number:number = 10;
 
-  sumar(){
-    this.number+=1;
-  }
+  acumular(valor:number){
+    this.number += valor;
 
-  resta(){
-    this.number-=1;
   }
 
 }
